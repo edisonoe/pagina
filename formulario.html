@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <TABLE align="center" cellspacing="0" width="100%" height="auto">
+        <tr bgcolor="Aquamarine">
+            <td colspan="2"><font face="Rateway" size="6" ><h1 align="center"><p style="color:rgb(0, 0, 0)">FORMULARIO</p></h1></font></td>
+        </tr>
+
+    <table >
+        <tr>
+            <td>
+                <form action="Servicio.php">
+                <Label for="Nombre">Ingrese su Nombre</Label><br>
+                <input type="text" id="Nombre" name="Nombre"><br>
+
+                <Label for="Apellidos">Ingrese su Apellidos</Label><br>
+                <input type="text" id="Apellidos" name="Apellidos"><br>
+
+                <Label for="Apellidos">Ingrese su Dirección</Label><br>
+                <input type="text" id="Dirección" name="Dirección"><br>
+
+                <Label for="Sexo">Ingrese su Sexo</Label><br>
+
+                <input type="Radio" id="Hombre" name="sexo" value="hombre">
+                <label for="Hombre">Hombre</label><br>
+
+                <input type="Radio" id="Mujer" name="sexo" value="Mujer">
+                <label for="Mujer">Mujer<br>
+
+                <form action="servicio.php" method="get">
+                    Elija Su Archivo
+                    <input type="File" name="Archivo">
+                </form> <br>  <br>
+                <form action="Recogidal.php" method="get">
+                    <label for="fecha nac">FECHA NACIMIENTO</label>   
+                    <input type="date" name="fecha nac" id="fecha nac">
+                </form><br>
+                <form action="servicio.php" method="get">
+                    Escribe una opinión sobre La página web: <br>
+                    <textarea rows="10" cols="40" name="texto"></textarea><br>
+                   
+
+                </form>
+
+                <br><br>
+                <button><a href="Index.html">Enviar</button>
+            </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
